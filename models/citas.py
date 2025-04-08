@@ -7,7 +7,6 @@ from sqlalchemy import (
     Integer,
     String,
     DateTime,
-    ForeignKey,
     Enum as SqlEnum,
 )
 from config.db import Base
